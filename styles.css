@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Default Background for Smaller Screens */
+body {
+    background: url('images/vitthal4x.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(255, 153, 0, 0.8); /* Transparent saffron header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 102, 0, 0.9); /* Transparent deep orange */
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Content Section */
+.content {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.content h1 {
+    color: #ff6600;
+}
+
+.content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Gallery Section */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.gallery img {
+    margin: 10px;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #ff6600; /* Orange border */
+}
+
+/* Footer */
+footer {
+    background-color: rgba(255, 102, 0, 0.9); /* Transparent deep orange */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .gallery img {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .content p {
+        font-size: 1em;
+    }
+
+    .gallery img {
+        width: 90%;
+    }
+}
