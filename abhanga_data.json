@@ -1,12 +1,29 @@
-{
-    "title": "अभंग #1",
-    "audio": "path_to_your_music_file.mp3",
-    "abhanga": {
-        "text": "जे का रंजले गांजले त्यांसि म्हणे जो आपुले!! <br> तो ची साधु ओळखावा देव तेथीची जाणावा!!",
-        "author": "संत तुकाराम"
+[
+    {
+        "id": 1,
+        "title": "अभंग #1",
+        "audio": "musics/1.mp3",
+        "abhanga": {
+            "text": "जे का रंजले गांजले त्यांसि म्हणे जो आपुले!! <br> तो ची साधु ओळखावा देव तेथीची जाणावा!!",
+            "author": "संत तुकाराम"
+        },
+        "meanings": {
+            "marathi": "हे अभंग व्यक्त करते की मनाचे शुद्धता कधीच कायम नसते, त्यामुळे भूतकाळाची चिंताऐवजी वर्तमानात राहायला हवे. हे श्रीरामच्या महत्त्वावर लक्ष केंद्रित करते आणि भक्तीच्या पंथावर चालायला प्रोत्साहित करते.",
+            "english": "This abhanga expresses that purity of the mind is never permanent, so one should focus on the present rather than worrying about the past. It emphasizes the importance of devotion to Lord Rama and encourages walking the path of devotion."
+        }
     },
-    "meanings": {
-        "marathi": "हे अभंग व्यक्त करते की मनाचे शुद्धता कधीच कायम नसते, त्यामुळे भूतकाळाची चिंताऐवजी वर्तमानात राहायला हवे. हे श्रीरामच्या महत्त्वावर लक्ष केंद्रित करते आणि भक्तीच्या पंथावर चालायला प्रोत्साहित करते.",
-        "english": "This abhanga expresses that purity of the mind is never permanent, so one should focus on the present rather than worrying about the past. It emphasizes the importance of devotion to Lord Rama and encourages walking the path of devotion."
+    {
+        "id": 2,
+        "title": "अभंग #2",
+        "audio": "musics/2.mp3",
+        "abhanga": {
+            "text": "कथा अनंत जगाचा शुद्ध अणुचा जाणावा!! <br> संत तुकाराम कृपाळो मी यज्ञाची जाणावा!!",
+            "author": "संत तुकाराम"
+        },
+        "meanings": {
+            "marathi": "हे अभंग जीवनाच्या अनंत गोष्टींचे वर्णन करते आणि भक्तांना संतांचे महत्त्व शिकवते.",
+            "english": "This abhanga describes the infinite stories of life and teaches devotees the importance of saints."
+        }
     }
-}
+
+]

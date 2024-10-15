@@ -3,39 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Devotional Abhangas for Lord Vitthal">
-    <title>Vitthal Abhangas</title>
+    <title>Abhanga Listing</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
+        <h1 class="title" id="abhanga-title">Some fancy title</h1>
 
-    <header>
-        <h1>Welcome to Vitthal Abhangas</h1>
-        <p>A Spiritual Journey with Devotional Songs of Lord Vitthal</p>
-    </header>
-<!-- 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="abhangas.html">Abhangas</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </nav> -->
+        <div class="music" id="music-player"></div>
 
-    <div class="content">
-        <h1>Abhangas for Lord Vitthal</h1>
-        <p>
-            Welcome to a divine collection of Abhangas, devotional songs that celebrate the glory of Lord Vitthal.
-            These timeless compositions by revered saints such as Sant Tukaram, Sant Dnyaneshwar, and others inspire faith
-            and devotion. Listen to the melodious chants, immerse yourself in devotion, and find peace through the sacred lyrics.
-        </p>
+        <div class="abhanga" id="abhanga-text"></div>
 
-        <div class="gallery">
-            <img src="images/vitthal1.jpg" alt="Lord Vitthal">
-            <img src="images/vitthal2.jpg" alt="Sant Tukaram">
-            <img src="images/vitthal3.jpg" alt="Pandharpur Temple">
+        <div class="meaning">
+            <h2 id="meaning-heading">अर्थ</h2>
+            <div class="language-toggle">
+                <img id="toggle-icon" src="images/language.png" alt="Toggle Language" title="Toggle Language" />
+            </div>
+            <p id="meaning-text"></p>
         </div>
     </div>
-
+    
+    <script src="abhanga.js"></script>
 </body>
 </html>
