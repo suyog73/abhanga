@@ -19,12 +19,12 @@ async function loadAbhanga() {
 
     if (abhanga) {
         document.getElementById('abhanga-title').textContent = abhanga.title;
-        document.getElementById('music-player').innerHTML = `
-            <audio controls>
-                <source src="${abhanga.audio}" type="audio/mpeg">
-                Your browser does not support the audio tag.
-            </audio>
-        `;
+        // document.getElementById('music-player').innerHTML = `
+        //     <audio controls>
+        //         <source src="${abhanga.audio}" type="audio/mpeg">
+        //         Your browser does not support the audio tag.
+        //     </audio>
+        // `;
         document.getElementById('abhanga-text').innerHTML = `
             <p>${abhanga.abhanga.text}</p>
             <br>
