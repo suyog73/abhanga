@@ -8,9 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="title" id="abhanga-title">Some fancy title</h1>
-
-        <!-- <div class="music" id="music-player"></div> -->
+        <h1 class="title" id="abhanga-title">|| श्री विठ्ठल ||</h1>
 
         <div class="abhanga" id="abhanga-text"></div>
 
@@ -21,13 +19,48 @@
             </div>
             <p id="meaning-text"></p>
         </div>
-    </div>
+
+        <!-- Clickable image to play/stop background music -->
+        <img id="play-music-img" src="images/damru.png" alt="Play Music" title="Play Music" style="cursor: pointer; width: 100px; height: auto;" />
+
 
     <!-- Background music -->
-    <audio autoplay loop hidden>
+    <audio id="background-music" loop hidden>
         <source src="musics/bg.mp3" type="audio/mpeg">
         Your browser does not support the audio tag.
     </audio>
+
+    <script>
+        const music = document.getElementById('background-music');
+        const playMusicImage = document.getElementById('play-music-img');
+
+        // Function to play or stop music
+        function toggleMusic() {
+            if (music.paused) {
+                music.play().then(() => {
+                    playMusicImage.src = "images/pause.png"; // Change to stop image
+                    playMusicImage.alt = "Pause Music"; // Change alt text
+                    playMusicImage.style.width = "50px";
+                }).catch(error => {
+                    console.log("Audio play failed: ", error);
+                });
+            } else {
+                music.pause();
+                playMusicImage.src = "images/damru.png"; // Change back to play image
+                playMusicImage.style.width = "80px";
+                playMusicImage.alt = "Play Music"; // Change alt text
+            }
+        }
+
+        // Add click event to the image to toggle music
+        playMusicImage.addEventListener('click', toggleMusic);
+
+        // Optionally, you can attempt to auto-play on page load
+        window.onload = function() {
+            // Uncomment this line if you want to attempt auto-play on load
+            // toggleMusic();
+        };
+    </script>
 
     <script src="abhanga.js"></script>
 </body>
