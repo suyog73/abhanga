@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "अभंग #1",
+        "title": "|| श्री विठ्ठल ||",
         "audio": "musics/1.mp3",
         "abhanga": {
             "text": "जे का रंजले गांजले त्यांसि म्हणे जो आपुले!! <br> तो ची साधु ओळखावा देव तेथीची जाणावा!!",
@@ -14,7 +14,7 @@
     },
     {
         "id": 2,
-        "title": "अभंग #2",
+        "title": "|| श्री विठ्ठल ||",
         "audio": "musics/2.mp3",
         "abhanga": {
             "text": "कथा अनंत जगाचा शुद्ध अणुचा जाणावा!! <br> संत तुकाराम कृपाळो मी यज्ञाची जाणावा!!",
@@ -24,6 +24,83 @@
             "marathi": "हे अभंग जीवनाच्या अनंत गोष्टींचे वर्णन करते आणि भक्तांना संतांचे महत्त्व शिकवते.",
             "english": "This abhanga describes the infinite stories of life and teaches devotees the importance of saints."
         }
+    },
+    {
+        "id": 3,
+        "title": "|| श्री विठ्ठल ||",
+        "audio": "musics/3.mp3",
+        "abhanga": {
+            "text": "रंगी रंगे रे श्रीरंगा । काय भुललासी पतंगे ।। <br> शरीर जायाचे ठावेण । धरिसी अभिलाष झणे ।। <br> <br> नव्हे तुझा हा परिवार । द्रव्यदारा क्षणभंगुर ।। <br> अंतकाळीचा सोडेरा । तुका म्हणे विठो धरा ।।",
+            "author": "संत तुकाराम"
+        },
+        "meanings": {
+            "marathi": "हे अभंग जीवनाच्या अनंत गोष्टींचे वर्णन करते आणि भक्तांना संतांचे महत्त्व शिकवते.",
+            "english": "This abhanga describes the infinite stories of life and teaches devotees the importance of saints."
+        }
+    },
+    {
+        "id": 4,
+        "title": "|| श्री विठ्ठल ||",
+        "audio": "musics/4.mp3",
+        "abhanga": {
+            "text": "विठोबारायाच्या अगा लेखवळा । <br> जाऊनी कळवळा सांगा माझा ।। १ ।।<br><br> विठोबारायाच्या अगा मुख्य प्राणा ।<br> भेटवीं निधाना आपुलिया ।। २ ।।<br><br>अगो क्षेत्र माझे सखे पंढरीये ।<br> मोकलिते पाय जीव जातो ।। ३ ।।<br><br> विश्वाचिये माते सुखाचे अमृत ।<br> सखा पंढरीनाथ विनवी तरी ।। ४ ।।<br><br>तूं मायबापिणी देवाचे रुक्मीणी ।<br> धरोनियां जनी घालीं पायीं ।। ५ ।।",
+            "author": "संत जनाबाई"
+        },
+        "meanings": {
+            "marathi": "हे अभंग जीवनाच्या अनंत गोष्टींचे वर्णन करते आणि भक्तांना संतांचे महत्त्व शिकवते.",
+            "english": "This abhanga describes the infinite stories of life and teaches devotees the importance of saints."
+        }
+    },
+    {
+        "id": 5,
+        "title": "|| श्री विठ्ठल ||",
+        "audio": "musics/5.mp3",
+        "abhanga": {
+            "text": "ज्ञानदीपिका उजळी । <br>नाहीं चिंतेची काजळी ।। १ ।।<br><br>ओवाळिला देवदत्त ।<br>प्रेमें आनंद भरित ।। २ ।।<br><br>उष्ण चांदणें अतीत ।<br>तेज कोंदले अद्भुत ।। ३ ।।<br><br>भेदाभेद मावळले ।<br>सर्व विकार गळाले ।। ४ ।।<br><br>एका मिळाली जनार्दनीं ।<br>तेजीं मिळाला आपण ।। ५ ।।",
+            "author": "संत ज्ञानेश्वर"
+        },
+        "meanings": {
+            "marathi": "हे अभंग जीवनाच्या अनंत गोष्टींचे वर्णन करते आणि भक्तांना संतांचे महत्त्व शिकवते.",
+            "english": "This abhanga describes the infinite stories of life and teaches devotees the importance of saints."
+        }
+    },
+    {
+        "id": 6,
+        "title": "|| श्री विठ्ठल ||",
+        "audio": "musics/6.mp3",
+        "abhanga": {
+            "text": "अवघा रंग एक झाला। <br>रंगी रंगला श्रीरंग।। धृ ।।<br><br> मीतूपण गेले वाया।<br>पाहता पंढरीच्या राया।। 1 ।।<br><br> नाही भेदाचे ते काम।<br>पळोनी गेले क्रोध काम।। 2 ।।<br><br> देही असोनी विदेही।<br>सदा समाधिस्थ पाही।। 3 ।।<br><br> पाहते पाहणे गेले दूरी।<br>म्हणे चोखिया ची महारी।। 4 ।।",
+            "author": "संत चोखामेळा"
+        },
+        "meanings": {
+            "marathi": "हे अभंग जीवनाच्या अनंत गोष्टींचे वर्णन करते आणि भक्तांना संतांचे महत्त्व शिकवते.",
+            "english": "This abhanga describes the infinite stories of life and teaches devotees the importance of saints."
+        }
+    },
+    {
+        "id": 7,
+        "title": "|| श्री विठ्ठल ||",
+        "audio": "musics/7.mp3",
+        "abhanga": {
+            "text": "आधी बीज एकले, अंगी अंकुरले।<br> फळपान फुटले, तेव्हा सांडले।।<br><br>होय प्रपंच हा, तुका म्हणे सांभाळा।<br> जो न देखियेला, त्यासि वंदिला।।",
+            "author": "संत तुकाराम"
+        },
+        "meanings": {
+            "marathi": "हे अभंग जीवनाच्या अनंत गोष्टींचे वर्णन करते आणि भक्तांना संतांचे महत्त्व शिकवते.",
+            "english": "This abhanga describes the infinite stories of life and teaches devotees the importance of saints."
+        }
+    },
+    {
+        "id": 8,
+        "title": "|| श्री विठ्ठल ||",
+        "audio": "musics/8.mp3",
+        "abhanga": {
+            "text": "रूप पाहता लोचनी<br>सुख झाले वो साजणी || १ ||<br><br>तो हा विठ्ठल बरवा<br>तो हा माधव बरवा || २ ||<br><br>बहुत सुकृतांची जोडी<br>म्हणून विठ्ठले आवडी || ३ ||<br><br>सर्व सुखांचे आगर<br>बाप रखुमादेवी वर || ४ ||",
+            "author": "संत ज्ञानेश्वर"
+        },
+        "meanings": {
+            "marathi": "हे अभंग जीवनाच्या अनंत गोष्टींचे वर्णन करते आणि भक्तांना संतांचे महत्त्व शिकवते.",
+            "english": "This abhanga describes the infinite stories of life and teaches devotees the importance of saints."
+        }
     }
-
 ]
