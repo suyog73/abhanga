@@ -14,7 +14,7 @@ function getIdFromUrl() {
 async function loadAbhanga() {
     const abhangas = await fetchAbhangas();
     const id = getIdFromUrl();
-    
+
     const abhanga = abhangas.find(item => item.id == id);
 
     if (abhanga) {
